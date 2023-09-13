@@ -16,8 +16,8 @@ general.background = {color: "#F9F9F9"}
 general.addText("Dados Gerais", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 
 //Imagens
-general.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-general.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+general.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+general.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //Baras
 general.addShape(ppt.ShapeType.rect, { w:'76%', h:0.01, x:'12%', y:'55%', fill: { color: "d9d9d9" } });
@@ -68,8 +68,8 @@ medal.background = {color: "#F9F9F9"}
 medal.addText("Medalhas", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 
 //Imagens
-medal.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-medal.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+medal.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+medal.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //Titulos Tabela 
 medal.addText("Descrição", {align: 'left',w:'30%', x:'4%', y:'30%', color: '#608CFE', fontFace:"Inter" ,fontSize: 18, bold: true})
@@ -104,8 +104,8 @@ award.background = {color: "#F9F9F9"}
 
 //Titulo
 award.addText("Conquistas", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32, bold: true});
-award.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-award.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+award.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+award.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 //Titulos tabela
 award.addText("Pontos", {align: 'center', w:'20%', x:'40%', y:'30%', color: '#608CFE', fontFace:"Inter" ,fontSize: 18})
 award.addText("Total de \nusuários", {align: 'center', w:'20%', x:'70%', y:'30%', color: '#545454', fontFace:"Inter" ,fontSize: 18})
@@ -126,8 +126,8 @@ quizRecorde.background = {color: "#F9F9F9"}
 
 //Titulo
 quizRecorde.addText("Quiz", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32, bold: true});
-quizRecorde.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-quizRecorde.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+quizRecorde.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+quizRecorde.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 //TITULO2
 quizRecorde.addText("TIPO", {align: 'left', w:'20%', x:'5%', y:`25%`, color: '#545454', fontFace:"Inter" ,fontSize: 18})
 quizRecorde.addText("RECORD", {align: 'left', w:'30%', x:'5%', y:`30%`, color: '#608CFE', fontFace:"Inter" ,fontSize: 32, bold: true})
@@ -151,8 +151,8 @@ quizCertificado.background = {color: "#F9F9F9"}
 
 //Titulo
 quizCertificado.addText("Quiz", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32, bold: true});
-quizCertificado.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-quizCertificado.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+quizCertificado.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+quizCertificado.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //TITULO2
 quizCertificado.addText("TIPO", {align: 'left', w:'20%', x:'5%', y:`25%`, color: '#545454', fontFace:"Inter" ,fontSize: 18})
@@ -186,8 +186,8 @@ reward.background = {color: "#F9F9F9"}
 reward.addText("Recompensas", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 
 //Imagens
-reward.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-reward.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+reward.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+reward.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //Grades
 reward.addShape(ppt.ShapeType.rect, { w: 0.01, h:'10%', x:'26%', y:'30%', fill: { color: "d9d9d9" } });
@@ -223,8 +223,8 @@ payment.background = {color: "#F9F9F9"}
 payment.addText("Pagamentos", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 
 //Imagens
-payment.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-payment.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+payment.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+payment.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //TEXT
 payment.addText('Em aberto', {align:'center', w:'20%', x:'20%', y:'45%', color:'#608CFE', fontFace:'Inter', fontSize:24, bold:true})
@@ -245,8 +245,8 @@ task.background = {color: "#F9F9F9"}
 task.addText("Tarefas", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 
 //Imagens
-task.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-task.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+task.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+task.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 //TEXT
 task.addText('Em aberto', {align:'center', w:'20%', x:'15%', y:'40%', color:'#545454', fontFace:'Inter', fontSize:24, bold:true})
@@ -274,8 +274,8 @@ user.background = {color: "#F9F9F9"}
 //Titulo
 user.addText("Usuários", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 //Imagens
-user.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-user.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+user.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+user.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 user.addText(item.name, {align: 'left', w:'30%', x:'5%', y:'25%', color:'#608CFE', fontSize:24, bold:true})
 user.addText(
@@ -317,8 +317,8 @@ userTasks.background = {color: "#F9F9F9"}
 //Titulo
 userTasks.addText("Usuários", { y: 0.4,align: 'center', w: "100%",color: '#608CFE',fontFace: "Inter",fontSize: 32,bold: true,});
 //Imagens
-userTasks.addImage({path: './logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
-userTasks.addImage({path: './logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
+userTasks.addImage({path: './images/logoBend.png', h:0.6, w:0.85, x:0.5, y:0.2})
+userTasks.addImage({path: './images/logoGamingIconBlack.png', h:0.6, w:0.6, x:9, y:0.2})
 
 userTasks.addText(item.name, {align: 'left', w:'30%', x:'5%', y:'25%', color:'#608CFE', fontSize:24, bold:true})
 userTasks.addText(
